@@ -38,7 +38,7 @@ $salario = $_GET['sal'] ?? 0;
 	$total = intdiv($salario,$minimo);
 	$dif = $salario % $minimo;
 
-echo ("ganha <strong>$total</strong> salarios Minimos");
+echo ("ganha <strong>$total</strong> salarios Minimos + R\$".number_format($dif,2,",",".")."");
 
 	?>
 
